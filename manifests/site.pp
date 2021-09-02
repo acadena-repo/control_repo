@@ -7,6 +7,6 @@ node default {
   file { '/root/NOTES':
     ensure  => file,
     content => 'Duplicate declarations: puppet is all about to describing your desired state so, duplicate declarations lead to an ambiguous state\n',
-               'Other built-in resources can be found at https docs.puppet.com latest type.html\n'
+               'Other built-in resources can be found at https docs.puppet.com latest type.html\n',
   }
 }
